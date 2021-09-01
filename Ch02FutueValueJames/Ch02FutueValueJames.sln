@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch02FutueValueJames", "Ch02FutueValueJames\Ch02FutueValueJames.csproj", "{A91AA792-1888-4C05-887D-CBD9B9BEAEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91AA792-1888-4C05-887D-CBD9B9BEAEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91AA792-1888-4C05-887D-CBD9B9BEAEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91AA792-1888-4C05-887D-CBD9B9BEAEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91AA792-1888-4C05-887D-CBD9B9BEAEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCAD5DFF-0533-45B9-B3C9-22929D49B25A}
+	EndGlobalSection
+EndGlobal
