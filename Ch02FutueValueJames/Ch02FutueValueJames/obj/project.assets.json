@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\reedt\\.nuget\\packages\\": {}
+    "C:\\Users\\Reed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\reedt\\Documents\\DMACC\\CIS_174\\CIS174_Reed_James\\Ch02FutueValueJames\\Ch02FutueValueJames\\Ch02FutueValueJames.csproj",
+      "projectUniqueName": "C:\\Users\\Reed\\Documents\\6_DMACC\\2021_Fall\\Advanced_C_Sharp\\CIS174_Reed_James\\Ch02FutueValueJames\\Ch02FutueValueJames\\Ch02FutueValueJames.csproj",
       "projectName": "Ch02FutueValueJames",
-      "projectPath": "C:\\Users\\reedt\\Documents\\DMACC\\CIS_174\\CIS174_Reed_James\\Ch02FutueValueJames\\Ch02FutueValueJames\\Ch02FutueValueJames.csproj",
-      "packagesPath": "C:\\Users\\reedt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\reedt\\Documents\\DMACC\\CIS_174\\CIS174_Reed_James\\Ch02FutueValueJames\\Ch02FutueValueJames\\obj\\",
+      "projectPath": "C:\\Users\\Reed\\Documents\\6_DMACC\\2021_Fall\\Advanced_C_Sharp\\CIS174_Reed_James\\Ch02FutueValueJames\\Ch02FutueValueJames\\Ch02FutueValueJames.csproj",
+      "packagesPath": "C:\\Users\\Reed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Reed\\Documents\\6_DMACC\\2021_Fall\\Advanced_C_Sharp\\CIS174_Reed_James\\Ch02FutueValueJames\\Ch02FutueValueJames\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\reedt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Reed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
