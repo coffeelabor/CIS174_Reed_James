@@ -18,13 +18,16 @@ namespace FutureValue.Models
 
         public decimal Calculate()
         {
-            int months = Years.Value * 12;
-            decimal monthlyInterestRate = YearlyInterestRate.Value / 12 / 100;
+            //int months = Years.Value * 12;
+            int months = 4 * 12;
+            //decimal monthlyInterestRate = YearlyInterestRate.Value / 12 / 100;
+            decimal monthlyInterestRate = 0;
             decimal futureValue = 0;
 
             for (int i = 0; i < months; i++)
             {
-                futureValue = (futureValue + MonthlyInvestment.Value) * (1 + monthlyInterestRate);
+                //futureValue = (futureValue + MonthlyInvestment.Value) * (1 + monthlyInterestRate);
+                futureValue = (futureValue + 20) * (1 + monthlyInterestRate);
             }
             return futureValue;
         }
