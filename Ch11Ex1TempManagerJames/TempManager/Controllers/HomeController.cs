@@ -21,6 +21,12 @@ namespace Ch11Ex1TempManager.Controllers
         [HttpPost]
         public IActionResult Add(Temp temp)
         {
+            Temp tempCheck = data.Temps.FirstOrDefault(t => t.Date == temp.Date);
+            if (tempCheck != null)
+            {
+                ModelState.AddModelError("Date",
+                    $"{temp.Date?.ToShortDateString()} already exists in database.");
+            }
             if (ModelState.IsValid) {
                 data.Temps.Add(temp);
                 data.SaveChanges();
@@ -28,6 +34,7 @@ namespace Ch11Ex1TempManager.Controllers
                 return RedirectToAction("Index");
             } 
             else {
+                ModelState.AddModelError("", "Please correct all errors.");
                 return View(temp);
             }
         }
