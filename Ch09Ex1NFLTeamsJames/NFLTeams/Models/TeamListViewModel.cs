@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace NFLTeams.Models
 {
     public class TeamListViewModel : TeamViewModel
     {
+        public String UserName { get; set; }
+
         public List<Team> Teams { get; set; }
 
         // use full properties for Conferences and Divisions 
