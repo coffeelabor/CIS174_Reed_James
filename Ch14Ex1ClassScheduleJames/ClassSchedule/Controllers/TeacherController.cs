@@ -5,9 +5,10 @@ namespace ClassSchedule.Controllers
 {
     public class TeacherController : Controller
     {
-        private Repository<Teacher> teachers { get; set; }
-        public TeacherController(ClassScheduleContext ctx) => teachers = new Repository<Teacher>(ctx);
-
+        //private Repository<Teacher> teachers { get; set; }
+        //public TeacherController(ClassScheduleContext ctx) => teachers = new Repository<Teacher>(ctx);
+        private IRepository<Teacher> teachers { get; set; }
+        public TeacherController(IRepository<Teacher> repo) => teachers = repo;
         public ViewResult Index()
         {
             var options = new QueryOptions<Teacher> {

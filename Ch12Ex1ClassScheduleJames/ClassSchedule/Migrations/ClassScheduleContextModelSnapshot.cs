@@ -15,7 +15,7 @@ namespace Ch12Ex1ClassSchedule.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.0-preview1.19506.2")
+                .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -59,7 +59,7 @@ namespace Ch12Ex1ClassSchedule.Migrations
                         {
                             ClassId = 1,
                             DayId = 1,
-                            MilitaryTime = "1100",
+                            MilitaryTime = "1500",
                             Number = 101,
                             TeacherId = 1,
                             Title = "Sign Language"
@@ -103,7 +103,7 @@ namespace Ch12Ex1ClassSchedule.Migrations
                         new
                         {
                             ClassId = 6,
-                            DayId = 3,
+                            DayId = 5,
                             MilitaryTime = "1000",
                             Number = 401,
                             TeacherId = 2,
@@ -266,7 +266,7 @@ namespace Ch12Ex1ClassSchedule.Migrations
                     b.HasOne("ClassSchedule.Models.Teacher", "Teacher")
                         .WithMany("Classes")
                         .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618
